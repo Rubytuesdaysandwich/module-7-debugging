@@ -23,7 +23,7 @@ and open the template in the editor.
                 
                 /* Calculate and display celsius for
                  * for all Fahrenheit temps */
-                $celsius = 5/9 * $fahrenheit[$i] - 32;
+                $celsius = 5/9 * ($fahrenheit[$i] - 32);
                 echo "Fahrenheit = " . $fahrenheit[$i] . " Celsius = $celsius";
                 echo "<br />";
             }
@@ -41,7 +41,7 @@ and open the template in the editor.
              for each Celsius*/
             for($i=0; $i<count($celsius); $i++){
                 
-                $fahrenheit = 9/5 * ($celsius[$i] +32);
+                $fahrenheit =  ($celsius[$i] * 9/5 +32);
                 echo "Celsius = " . $celsius[$i] . " Fahrenheit = $fahrenheit";
                 echo "<br />";
             }
@@ -63,6 +63,7 @@ and open the template in the editor.
         /* call displayFahrenheit
          * Pass celsius and size */
         displayFahrenheit($celsius, $size);
+        
         
         ?>
     </body>
