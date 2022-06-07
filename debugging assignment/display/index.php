@@ -32,7 +32,7 @@
 
             <label>Number of Years:</label>
             <input type="text" name="years"
-                   value="<?php $years; ?>"><br>
+                   value="<?php echo  $years; ?>"><br>
         </div>
 
         <div id="buttons">
