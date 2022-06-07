@@ -12,6 +12,21 @@
 </head>
 
 <body>
+<header>
+      <nav>
+        <ul>
+          <li>
+            <a href="../temp/temperature.php">Temperature</a>
+          </li>
+          <li>
+            <a href="/#/">Future Value</a>
+          </li>
+          <li>
+            <a href="../discount calculator/">discount calculator</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
     <main>
     <h1>Future Value Calculator</h1>
     <?php if (!empty($error_message)) { ?>

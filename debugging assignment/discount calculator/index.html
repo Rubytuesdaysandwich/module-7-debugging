@@ -1,32 +1,45 @@
 <!DOCTYPE html>
 <html>
-<head>
+  <head>
     <title>Product Discount Calculator</title>
-    <link rel="stylesheet" type="text/css" href="main.css">
-</head>
+    <link rel="stylesheet" type="text/css" href="main.css" />
+  </head>
 
-<body>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li>
+            <a href="../temp/temperature.php">Temperature</a>
+          </li>
+          <li>
+            <a href="../display-future value/">Future Value</a>
+          </li>
+          <li>
+            <a href="/#/">discount calculator</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
     <main>
-        <h1>Product Discount Calculator</h1>
-        <form action="display_discount.php" method="post">
+      <h1>Product Discount Calculator</h1>
+      <form action="display_discount.php" method="post">
+        <div id="data">
+          <label>Product Description:</label>
+          <input type="text" name="product_description" /><br />
 
-            <div id="data">
-                <label>Product Description:</label>
-                <input type="text" name="product_description"><br>
+          <label>List Price:</label>
+          <input type="text" name="list_price" /><br />
 
-                <label>List Price:</label>
-                <input type="text" name="list_price"><br>
+          <label>Discount Percent:</label>
+          <input type="text" name="discount_percent" /><span>%</span><br />
+        </div>
 
-                <label>Discount Percent:</label>
-                <input type="text" name="discount_percent"><span>%</span><br>
-            </div>
-
-            <div id="buttons">
-                <label>&nbsp;</label>
-                <input type="submit" value="Calculate Discount"><br>
-            </div>
-
-        </form>
+        <div id="buttons">
+          <label>&nbsp;</label>
+          <input type="submit" value="Calculate Discount" /><br />
+        </div>
+      </form>
     </main>
-</body>
+  </body>
 </html>
