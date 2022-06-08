@@ -12,7 +12,7 @@
 </head>
 
 <body>
-<header>
+<header><!--this is a navigation menu for the ease of moving to each part of the assignment-->
       <nav>
         <ul>
           <li>
@@ -22,11 +22,11 @@
             <a href="/#/">Future Value</a>
           </li>
           <li>
-            <a href="../discount calculator/">discount calculator</a>
+            <a href="../discount calculator/index.html">discount calculator</a>
           </li>
         </ul>
       </nav>
-    </header>
+    </header><!--end .this is a navigation menu for the ease of moving to each part of the assignment-->
     <main>
     <h1>Future Value Calculator</h1>
     <?php if (!empty($error_message)) { ?>

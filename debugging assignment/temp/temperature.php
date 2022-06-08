@@ -10,21 +10,21 @@ and open the template in the editor.
         <title>Temperature Converter</title>
     </head>
     <body>
-    <header>
+    <header><!--this is a navigation menu for the ease of moving to each part of the assignment-->
       <nav>
         <ul>
           <li>
-            <a href="/temp/#">Temperature</a>
+            <a href="#">Temperature</a>
           </li>
           <li>
-            <a href="../display-future value/">Future Value</a>
+            <a href="../display-future value/index.php">Future Value</a>
           </li>
           <li>
-            <a href="../discount calculator/">discount calculator</a>
+            <a href="../discount calculator/index.html">discount calculator</a>
           </li>
         </ul>
       </nav>
-    </header>
+    </header><!--end .this is a navigation menu for the ease of moving to each part of the assignment-->
         <?php
         /* Function to convert Fahrenheit to Celsius */
         function displayCelsius($fahrenheit, $size){
